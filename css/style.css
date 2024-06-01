@@ -1,0 +1,54 @@
+/* All Common Css Start */
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+ul,ol{
+  list-style-type: none;
+}
+.container{
+  width: 1320px;
+  margin: 0 auto;
+}
+/* All Common Css End */
+
+/* header part start */
+#header_part{
+
+}
+.logo_with_menu{
+  display: flex;
+}
+.logo{
+  padding-top: 15px;
+  padding-left: 50px;
+  width: 45%;
+}
+.menu{
+  width: 45%;
+}
+.menu ul{
+  display: flex;
+  margin-right: 50px;
+}
+.menu ul li a{
+  padding: 0 15px;
+  line-height: 80px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  color: #000000;
+
+}
+.icons{
+  padding-top: 30px;
+  width: 10%;
+}
+.icons i{
+  margin-right: 10px;
+}
+/* header part end */
